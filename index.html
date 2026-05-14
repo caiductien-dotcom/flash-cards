@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="flashcard-app">
+    <h1>Flash Cards</h1>
+    
+    <!-- Thanh tiến độ -->
+    <div class="progress-container">
+        <div class="progress-bar-bg">
+            <div id="progress-fill" class="progress-fill"></div>
+        </div>
+        <div class="progress-stats">
+            <span id="progress-percent">0%</span>
+            <span id="card-counter">0 of 0</span>
+        </div>
+    </div>
+
+    <!-- Thẻ Flashcard -->
+    <div class="card-outer">
+        <div class="card-inner" id="card-content">
+            <!-- Nội dung sẽ được JS chèn vào đây -->
+        </div>
+        
+        <div class="card-controls">
+            <button id="prev-btn">&lt; Previous</button>
+            <button id="toggle-btn" class="main-action">Show Answer</button>
+            <button id="next-btn">Next &gt;</button>
+        </div>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
